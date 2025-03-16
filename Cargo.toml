@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-statrs = "0.18.0"
+cudarc = "0.13.9"
