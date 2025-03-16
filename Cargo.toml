@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-cudarc = "0.13.9"
+statrs = "0.18.0"
+rand = "0.9.0"
+cudarc = {version = "0.13.9", features = ["cuda-12080"]}
